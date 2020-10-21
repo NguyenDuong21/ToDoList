@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.title,.add1{
+    text-align: center;
+}
+.add1{
+    margin-top:50px;
+}
+.input_tex{
+    outline: none;
+    width: 500px;
+    height: 44px;
+    border-radius: 55px;
+    padding: 0 0 0 5px;
+}
+h1{
+    color:white;
+    margin-top:20px;
+    font-size: 50px;
+}
+strong{
+    color:green;
+}
+.add{
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 50%;
+    color:white;
+    width:45px;
+    height: 45px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 16px;
+}
+.item{
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+    width: 550px;
+}
+
+.contener{
+    width: 100%;
+    border-bottom: 3px solid white;
+    position: relative;
+    text-align: right;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.do{
+    background: none;
+    border:none;
+    color:white;
+    font-size:20px;
+    outline: none;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+}
+.remove{
+    border:none;
+    color:red;
+    background:none;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.remove:hover{
+    transform: scale(1.2);
+}
+.edit{
+    border:none;
+    color:green;
+    background:none;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.edit:hover{
+    transform: scale(1.2);
+}
